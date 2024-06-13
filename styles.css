@@ -14,6 +14,7 @@
     background-color: brown;
     border: 3px solid black;
     border-radius: 50%;
+    color: black;
 
 }
 
@@ -27,6 +28,7 @@
 
 .href-margin {
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .hr-margin {
@@ -48,17 +50,63 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -450px;
+    margin-top: -650px;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-item {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+
+}
 
 .shop {
-    margin-right: 50px;
-    font-size: 24px;
-    background-color: SlateBlue;
-    margin-bottom: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    width: 200px;
 }
 
 .top-bar {
-    background-color: darkgray;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 50px;
+
+ }
+
+ .link-color {
+    color: white;
+    text-decoration: none;
+ }
+
+.h1-color {
+    color: white;
+    font-family: cursive;
+}
+
+.img-size {
+    width: 30px;
+}
+
+.margin {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.blog-font {
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    text-align: right;
+    padding: 20px;
 }
