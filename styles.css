@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -450px;
+    margin-top: -650px;
 }
 
 .flex {
@@ -73,7 +73,7 @@
 
 .top-bar {
     background-color: rgb(0, 0, 0);
-    height: 70px;
+    height: 100px;
     display: flex;
     align-items: center;
     text-align: right;
@@ -88,11 +88,17 @@
 
 .h1-color {
     color: white;
-    font-family: cursive;
+    font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
 .img-size {
     width: 30px;
+}
+
+.img-size-iso {
+    width: 600px;
+    display: block;
+    margin: auto;
 }
 
 .margin {
@@ -101,7 +107,12 @@
 }
 
 .blog-font {
-    font-family: sans-serif;
+    font-family: sans-serif, Arial;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -109,4 +120,27 @@
     width: 100%;
     text-align: right;
     padding: 20px;
+}
+
+.margin-20 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.margin-10 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clean-link {
+    direction: none;
+    color: black;
+}
+
+.bottom-margin-50 {
+    margin-bottom: 50px;
+}
+
+.justified-text {
+    text-align: justify;
 }
